@@ -116,3 +116,6 @@ $(call inherit-product, vendor/samsung/klte-common/klte-common-vendor.mk)
 
 # common msm8974
 $(call inherit-product, device/samsung/msm8974-common/msm8974.mk)
+
+# enable AXP.OS vendor
+$(call inherit-product, vendor/axp/config/common.mk)
