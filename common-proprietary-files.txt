@@ -17,9 +17,6 @@ etc/Handset_cal.acdb:vendor/etc/acdbdata/Handset_cal.acdb
 etc/Hdmi_cal.acdb:vendor/etc/acdbdata/Hdmi_cal.acdb
 etc/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
 etc/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcvirt.so
-vendor/lib/soundfx/libqcreverb.so
 
 # ADSP
 bin/adsprpcd:vendor/bin/adsprpcd
@@ -212,7 +209,6 @@ vendor/lib/libthermalioctl.so
 
 # DRM
 bin/qseecomd:vendor/bin/qseecomd
-vendor/lib/libdrmdiag.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libQSEEComAPI.so
