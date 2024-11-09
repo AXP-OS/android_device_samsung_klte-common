@@ -113,5 +113,8 @@ WIFI_DRIVER_FW_PATH_STA     := "/vendor/etc/wifi/bcmdhd_sta.bin"
 WIFI_DRIVER_FW_PATH_AP      := "/vendor/etc/wifi/bcmdhd_apsta.bin"
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
+# disable verified boot
+BOARD_AVB_ENABLE := false
+
 # inherit from the proprietary version
 include vendor/samsung/klte-common/BoardConfigVendor.mk
