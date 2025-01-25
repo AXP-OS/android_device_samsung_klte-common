@@ -65,3 +65,6 @@ ro.lineage.build.vendor_security_patch=2017-08-01
 
 # WiFi
 wifi.interface=wlan0
+
+drm.service.enabled=false
+
