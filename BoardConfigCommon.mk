@@ -118,3 +118,7 @@ BOARD_AVB_ENABLE := false
 
 # inherit from the proprietary version
 include vendor/samsung/klte-common/BoardConfigVendor.mk
+
+# even though we include vendor/axp/config/common.mk we need to include AXP's own BoardConfig
+# (after the above definitions & includes), too so we we can make use of the conditions within
+include vendor/axp/BoardConfigVendor.mk
